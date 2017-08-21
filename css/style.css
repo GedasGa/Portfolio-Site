@@ -1,4 +1,4 @@
-/* CUSTOMIZED BODY
+/* CUSTOMIZE BODY
 -------------------------------------------------- */
 
 /* Changing fonts, background and text color */
@@ -7,11 +7,10 @@ html, body {
   font: 14px/1.6 "Helvetica Neue", helvetica, verdana, arial, sans-serif;
   color: #666;
   margin: 0px;
-  overflow-y: scroll;
   line-height: 21px;
 }
 
-/* CUSTOMIZED CAROUSEL
+/* CUSTOMIZE CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */
@@ -45,4 +44,17 @@ html, body {
     font-size: 21px;
     line-height: 1.4;
   }
+}
+
+/* CUSTOMIZE FIGURE
+-------------------------------------------------- */
+
+/* Add top and bottom margins to a figure */
+.figure {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.text-block {
+  background: #fff;
 }
