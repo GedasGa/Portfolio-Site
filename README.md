@@ -4,6 +4,10 @@
 
 Portfolio Website project is a recreation of a Udacity provided .PDF design, where I had to replicate that design in HTML and CSS. Developing a responsive website that displays images, descriptions and links to completed or future projects.
 
+## About the project
+
+This Portfolio Website was build using newest Bootstrap v4.0 framework. Bootstrap let's you easily and efficiently scales your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.I have just included Bootstrap's compiled CSS and JS, using the Bootstrap CDN. In additon to this, I have added Font Awesome icons via CDN.
+
 ## This project consists for the following files:
 
 - `styles.css` - custom CSS styles for the website
