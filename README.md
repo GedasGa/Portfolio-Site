@@ -15,7 +15,6 @@ Portfolio Website project is a recreation of a Udacity provided .PDF design, whe
 
 - `css/` - for stylesheets
 - `img/` - for images
-- `js/`  - for JavaScript files
 
 ## Why having a portfolio website is important to your career?
 
