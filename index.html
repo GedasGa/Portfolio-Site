@@ -43,16 +43,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#slides" target="_self">Home<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Work</a>
+                <a class="nav-link" href="#work" target="_self">Work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Contact</a>
+                <a class="nav-link" href="#about" target="_self">About</a>
               </li>
             </ul>
           </div>
@@ -63,7 +60,7 @@
     </div>
 
     <!-- Carousel slides wrapped in container -->
-    <div class="container">
+    <div class="container" id="slides">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -74,19 +71,19 @@
           <div class="carousel-item active">
           <!--  <img class="d-block w-100" src="img/WebLogos.png" alt="First slide" height="400px"> -->
             <div class="carousel-caption d-md-block">
-              <h1 class="text-dark">Who I am?</h1>
+              <h1 class="text-dark font-weight-bold">Who I am?</h1>
               <p class="text-dark">Hello, I am Gedas. I am a 3rd year full time student at Kaunas University of Technology, majoring in IT engineering.</p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="carousel-caption d-md-block">
-              <h1 class="text-dark">What I do?</h1>
+              <h1 class="text-dark font-weight-bold">What I do?</h1>
               <p class="text-dark">I work with tools to create a magic and build a Webpage from the scratch.</p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="carousel-caption d-md-block">
-              <h1 class="text-dark">My interests</h1>
+              <h1 class="text-dark font-weight-bold">My interests</h1>
               <p class="text-dark">My main interests are Web Developement and Machine Learning(AI)!</p>
             </div>
           </div>
@@ -103,33 +100,33 @@
     </div>
 
     <!-- All main figures wrapped in container -->
-    <div class="container">
+    <div class="container" id="work">
       <div class="row">
         <div class="col-md-12 text-left">
           <h2 class="heading"><span>Featured Work</span></h2>
         </div>
           <figure class="figure col-md-4">
             <div class="figure-block text-center">
-              <img src="img/placeholder.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-              <h3>Figure #1</h3>
-              <p class="figure-caption">A caption for the above image.</p>
-              <span class="fa fa-lg fa-github"></span>
+              <img class="figure-img img-fluid rounded" src="img/html.png" alt="html logo">
+              <h3>HMTL</h3>
+              <p class="figure-caption">Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications.</p>
+              <a target="_blank" href="https://en.wikipedia.org/wiki/HTML"><span class="fa fa-lg fa-wikipedia-w"></span></a>
             </div>
           </figure>
           <figure class="figure col-md-4">
             <div class="figure-block  text-center">
-            <img src="img/placeholder.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-              <h3>Figure #2</h3>
-              <p class="figure-caption">A caption for the above image.</p>
-              <span class="fa fa-lg fa-github"></span>
+            <img class="figure-img img-fluid rounded" src="img/css.png" alt="css logo">
+              <h3>CSS</h3>
+              <p class="figure-caption">CSS describes how HTML elements are to be displayed on screen, paper, or in other media</p>
+              <a target="_blank" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets"><span class="fa fa-lg fa-wikipedia-w"></span></a>
             </div>
           </figure>
           <figure class="figure col-md-4">
             <div class="figure-block text-center">
-            <img src="img/placeholder.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-              <h3 class="text-center">Figure #3</h3>
-              <p class="figure-caption">A caption for the above image.</p>
-              <span class="fa fa-lg fa-github"></span>
+            <img class="figure-img img-fluid rounded" src="img/js.png" alt="js logo">
+              <h3 class="text-center">JavaScript</h3>
+              <p class="figure-caption">JavaScript is the programming language of HTML and the Web.</p>
+              <a target="_blank" href="https://en.wikipedia.org/wiki/JavaScript"><span class="fa fa-lg fa-wikipedia-w"></span></a>
             </div>
           </figure>
       </div>
@@ -138,7 +135,7 @@
     <!-- /.container -->
 
     <!-- Footer wrapped in container -->
-    <div class="container">
+    <div class="container" id="about">
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p><span class="fa fa-copyright"></span><strong>2017 GedasGa</strong> &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>

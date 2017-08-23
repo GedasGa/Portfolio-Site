@@ -55,6 +55,10 @@ html, body {
   margin-bottom: 30px;
 }
 
+.figure-img {
+  background: #ddd;
+}
+
 .figure-block {
   background: #fff;
 }
