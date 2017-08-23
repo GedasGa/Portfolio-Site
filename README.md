@@ -2,18 +2,19 @@
 
 **by Gedas Gardauskas**
 
-Portfolio Website project is a recreation of a Udacity provided .PDF design, where I had to replicate that design in HTML and CSS. Developing a responsive website that displays images, descriptions and links to each of the portfolio projects completed through the Nanodegree program.
+Portfolio Website project is a recreation of a Udacity provided .PDF design, where I had to replicate that design in HTML and CSS. Developing a responsive website that displays images, descriptions and links to completed or future projects.
 
 ## This project consists for the following files:
 
 - `styles.css` - custom CSS styles for the website
 - `index.html` - main content, HTML file for the website
 
+  *And a few images...*
+
 ### File structure:
 
 - `css/` - for stylesheets
 - `img/` - for images
-- `js/`  - for JavaScript files
 
 ## Why having a portfolio website is important to your career?
 
