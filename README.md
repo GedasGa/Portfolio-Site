@@ -6,7 +6,7 @@ Portfolio Website project is a recreation of a Udacity provided .PDF design, whe
 
 ## About the project
 
-This Portfolio Website was build using newest Bootstrap v4.0 framework. Bootstrap let's you easily and efficiently scale your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.I have just included Bootstrap's compiled CSS and JS, using the Bootstrap CDN. In additon to this, I have added Font Awesome icons via CDN.
+This Portfolio Website was build using newest Bootstrap v4.0 framework. Bootstrap let's you easily and efficiently scale your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries. I have just included Bootstrap's compiled CSS and JS, using the Bootstrap CDN. In additon to this, I have added Font Awesome icons via CDN.
 
 ## This project consists for the following files:
 
